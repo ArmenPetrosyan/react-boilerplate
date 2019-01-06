@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Provider } from 'react-redux'
 import { withNamespaces } from 'react-i18next';
 import PropTypes from 'prop-types';
-import Header from './templates/Header';
+import Header from './view/templates/Header';
 import ChangeName from './view/components/ConnectedComponent.jsx';
 import store from './store';
 
